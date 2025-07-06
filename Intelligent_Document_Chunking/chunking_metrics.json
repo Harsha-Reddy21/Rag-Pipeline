@@ -1,0 +1,44 @@
+{
+  "chunking_metrics": [
+    {
+      "timestamp": "2025-07-06T22:36:53.626375",
+      "doc_type": "technical",
+      "chunk_count": 5,
+      "avg_chunk_size": 800,
+      "size_variation": 200,
+      "coverage": 0.98,
+      "content_preserved": true
+    },
+    {
+      "timestamp": "2025-07-06T22:36:53.627378",
+      "doc_type": "code",
+      "chunk_count": 3,
+      "avg_chunk_size": 1200,
+      "size_variation": 500,
+      "coverage": 0.99,
+      "content_preserved": true
+    }
+  ],
+  "retrieval_metrics": [
+    {
+      "timestamp": "2025-07-06T22:36:53.627378",
+      "query": "How to authenticate API",
+      "doc_type": "technical",
+      "strategy": "adaptive",
+      "relevant_results": 2,
+      "total_results": 3,
+      "precision": 0.6666666666666666,
+      "response_time_ms": 150
+    },
+    {
+      "timestamp": "2025-07-06T22:36:53.627378",
+      "query": "How to authenticate API",
+      "doc_type": "technical",
+      "strategy": "uniform",
+      "relevant_results": 1,
+      "total_results": 3,
+      "precision": 0.3333333333333333,
+      "response_time_ms": 120
+    }
+  ]
+}
