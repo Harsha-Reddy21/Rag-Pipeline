@@ -1,0 +1,14 @@
+streamlit
+sentence-transformers
+scikit-learn
+pandas
+numpy
+torch
+transformers
+plotly
+langchain
+langchain-community
+faiss-cpu
+seaborn
+matplotlib
+openai 
