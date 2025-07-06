@@ -1,0 +1,23 @@
+# Core NLP + Embedding
+sentence-transformers==2.6.1
+scikit-learn==1.4.2
+numpy==1.26.4
+pandas==2.1.4
+
+# Note: spaCy removed to avoid compatibility issues
+# Simple regex-based entity extraction is used instead
+
+# Document Parsing
+python-docx==1.1.0
+PyMuPDF==1.23.19
+
+# Vector Search (optional FAISS)
+faiss-cpu==1.7.4
+
+# Optional Web UI
+streamlit==1.35.0
+
+# Visualization (optional)
+matplotlib==3.8.4
+umap-learn==0.5.5
+plotly==5.17.0
